@@ -1,0 +1,39 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+
+}
+
+ul.social li a {
+  display: block;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  background: #eee;
+  line-height: 43px;
+  color: #fff;
+
+}
+
+ul li {
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.social li {
+  padding: 10px 5px;
+}
+
+@media (max-width: 480px) {
+  ul.social li a {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+  }
+
+
+}
